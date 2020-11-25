@@ -18,4 +18,3 @@ Extra element:
 Bij de (kleiner gemaakte) grafiek van bottom 50% en top 10% is de top 10% meteen al meer dan de bottom 50% mede, omdat bij het begin
 vele kandidaten blut zijn, wat dus overeenkomt met de grafiek van wealth distribution. De grafieken van alle kandidaten als cirkels, wordt minder
 duidelijk dan bij 100 "geld" omdat alle kandidaten tussen kleinere waardes gaat liggen (0 en 10) ipv (0 en 500) waardoor die grafiek niet handig meer is.
-6
