@@ -13,7 +13,7 @@ S0 met A0 -> S1 en dan met A1 -> S2 etc.
 4.  Een functie "Update" die een staat I neemt (soms D genoemd) en perceptie P, en een nieuwe staat I oplevert
 Betekent wat de agent na een actie onderneemt. Stopt het? Verandert het een waarde (aka update)? Of gaat het met/zonder aanpassing verder?
 
-
+Deze begrippen worden in 2 simulaties uitgelegd. Beide simulaties hebben ieder een andere structuur, waarbij bij economy project de act functie belangrijk is en bij het fire project de see functie. Waardoor ze beide erg van elkaar verschillen
 
 Demo Economy Project:
 1. Initiele staat: Bestaat uit wealth en agents. Elke agent kan wel of geen wealth hebben. Een agent zonder wealth gaat niet de See functie gebruiken
