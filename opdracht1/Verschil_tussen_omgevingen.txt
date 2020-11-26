@@ -14,4 +14,3 @@ Het is wel van goeie kwaliteit en heel erg uitbreidbaar.
 Over unity:
 De learning curve is vrij hoog, opties eigenlijk te uitgebreidt. 
 Engine is meer gemaakt voor games en niet echt voor data visualisation, al helemaal als je het meerdere malen achter elkaar zou moeten doen
-Ouren zei dat het belangrijk was als ik iets werkends kan krijgen waar een object met een ander object kan interacten, ga zometeen nog wel ff kijken met vriend van me of ik het beetje werkend kan krijgen
