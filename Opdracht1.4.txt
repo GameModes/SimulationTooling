@@ -1,0 +1,15 @@
+Een voorbeeldsysteem dat Niet-episodisch is in plaats van episodisch:
+Verzekeringssysteem, elk persoon kan een object verzekeren als het kapot/niet werkend wordt. Als dat gebeurt dat wordt een groot hoeveelheid
+van de waarde terugbetaalt. In ruil daarvoor betaal je een bepaald bedrag per maand/jaar. Dit moet je natuurlijk niet misbruiken. Je kan namelijk het object
+express telkens laten vallen en dan geld terugkrijgen. Verzekeringen hebben daarom voor elk persoon een zogenaamde "reputatie". Dit om "slechte" personen voor
+verzekeringen snel van te voren zien aankomen en hun bedrag per maand/jaar te verhogen.
+
+Een voorbeeldsysteem dat Discreet is in plaats van continu:
+Schaakspel, elk stuk van een schaakspel heeft een bepaalde patroon dat het beweegt. Naarmate het spel, verminderen
+de hoeveelheid van deze stukken en is de bedoeling dat iemand wint en verliest. Het is wel mogelijk om oneindig door te gaan
+als er bepaalde stukken over zijn, maar dat zou officieel niet voldoende zijn om het spel te eindigen.
+
+Een voorbeeldsysteem dat Deterministisch is in plaats van niet-deterministisch,
+Reken/meetsysteem, een som dat uitgerekend moet worden, maakt niet gebruik van willekeurigheid. Een optel som zoals 1+1 maakt altijd 2 (tenzij binair).
+Als dit systeem wel niet-deterministisch zou zijn, dan zouden alle berekeningen onjuist zijn en zou de wereld in elkaar storten. Want als
+een goudvis groter is dan een flatgebouw dan kan je beide objecten niet met andere objecten vergelijken omdat het onjuist is.
