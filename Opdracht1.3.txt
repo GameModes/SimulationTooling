@@ -1,21 +1,22 @@
-Omgeving Netlogo:
+Omgeving Simple Economy:
 Beschikbaar vs ontoegankelijk,
-De agenten kunnen, met het gemak van alles codeerbaar, een grote toegankelijke omgeving krijgen. Je kan agenten alles laten doen, zonder dat de omgeving
-in de weg zit. Netlogo is zeer beschikbaar
+De agenten in simple economy geven en nemen geld. Ze weten daarbij niet hoeveel geld de ander heeft, alleen wat hijzelf heeft. Hij weet niks van
+de omgeving dus zijn de agenten ontoegankelijk
 
 Deterministisch vs niet-deterministisch,
-In tegenstelling tot al gemaakte agent-based systems zoals Unity, is de agent erg vrij en kunnen vele fouten komen als de agent niet weet welk effect het krijgt
-In netlogo kan de agent een staat krijgen of niet. Zo niet dan komt er een foutmelding. Netlogo is niet-deterministisch
+De agenten geven willekeurige mensen geld, wat betekent dat elke agent elke keer een andere hoeveelheid aan geld/wealth heeft, waarbij de uitkomst nooit
+voorspelbaar is en is dus de simulatie niet-deterministisch
 
 Episodic vs non-episodic,
-Netlogo is erg makkelijk met de keuze die de agent moet maken tijdens een actie. 
-Het heeft geen acties nodig van andere agenten om te werken en kan uit zichzelf te werk gaan.
-Netlogo is episodisch.
+De agenten geven geld aan willekeurige mensen. Dat betekent niet altijd dat ze ook iets terug krijgen, dus is namelijk compleet willekeurig. De
+willekeurigheid bepaald het systeem en niet de agents. Dus bepalen de agenten waar hun geld/wealth naar toe gaat? Nee, wat betekent dat het episodic is.
 
 Statisch vs dynamisch,
-Netlogo laat elke agent zijn elke actie doorlopen, deze acties hoeven niet bepalend te zijn door agent. De keuze is compleet voor de gebruiker om dat te doen.
-Netlogo is daarom erg statisch.
+De omgeving wordt bepaald door de agenten, maar deze agenten besturen zichzelf niet, maar worden bestuurd door de randomness. Dit zorgt ervoor welke
+agenten rijker worden dan anderen. Dus zijn er andere systemen die de agenten behelpen in het systeem? Ja, dus dynamisch
 
 Discreet vs continu,
-Netlogo is discreet, omdat het simpelweg de code runt en daarna klaar is, wat betekent dat het (tenzij oneindige loop) altijd stopt.
+De omgeving laat door de randomness, het geld aan willekeurige mensen geven. De enige manier dat het systeem deze actie niet kan ondernemen is, wanneer
+iedereen blut is. Tijdens deze actie gaat er geen geld verloren en is er altijd wel een persoon met geld die het kan doorgeven.
+Dus is het systeem oneindig of zijn er zoveel regels dat het net zoals een schaakspel uiteindelijk stopt? Oneindig, Simple Economy project is continu
 
