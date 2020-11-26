@@ -1,11 +1,39 @@
+Algemeen begrip per deelvraag omschrijving
+1. De initiele staat LaTeX: i_0\in Ii 0 ∈ I, waarbij I alle mogelijk interne staten zijn. 
+Betekent welke staten elk agent zich kan bevinden, dit kan handig zijn om te checken of het voor de agent wel nodig is om de See functie te laten runnen.
+Zo kan bijvoorbeeld een blutte agent geen geld geven aan anderen en hoeft het dus niet naar andere agents te kijken
+
+2. Een functie "See" of "Perceive", die een mapping maakt van elke staat in de omgeving tot een staat die de perceptie van de agent van de omgeving aangeeft. 
+Betekent wat elke agent ziet in zijn omgeving (S) voordat het zijn actie onderneemt, wat kan aangeven of hij de actie doet of niet. Deze waarneming zet hij om in de letter P (erceptie)
+
+3. Een functie "Act" die een perceptie van de omgeving neemt en een toepasselijke actie kiest.
+Betekent wat de agent met P (uitkomst van See) doet en de juiste actie doorloopt en dan naar de volgende staat gaat zoals:
+S0 met A0 -> S1 en dan met A1 -> S2 etc.
+
+4.  Een functie "Update" die een staat I neemt (soms D genoemd) en perceptie P, en een nieuwe staat I oplevert
+Betekent wat de agent na een actie onderneemt. Stopt het? Verandert het een waarde (aka update)? Of gaat het met/zonder aanpassing verder?
+
+
+
 Demo Economy Project:
-Bestaat uit wealth en agents. Elke agent kan wel of geen wealth hebben. Elke agent kan elke andere agents zien, maar kan maar naar 1 willekeurige agent iets geven.
-Elke agent kijkt of het nog wealth heeft en zo ja dan hebben ze geld en zitten in een "have wealth" staat en kan het een actie doen. Bij de actie krijgen ze minder wealth en geeft deze wealth aan
-een andere agent, waarbij het niet uitmaakt welke staat de andere agent is (wealth of niet). Deze acties en perceives wordt bij elke agent gedaan. De wealth wordt dan per agent geupdate en opnieuw gecheckt bij de perceive staat.
-En kijkt het vervolgens of het blut is of niet.
+1. Initiele staat: Bestaat uit wealth en agents. Elke agent kan wel of geen wealth hebben. Een agent zonder wealth gaat niet de See functie gebruiken
+
+2. See Functie: Elke agent kan elke andere agents zien, maar kan maar naar 1 willekeurige agent iets geven. 
+		Elke agent kijkt of het nog wealth heeft en zo ja dan hebben ze geld en zitten in een "have wealth" staat en kan het een actie doen. 
+
+3. Act Functie: Bij de actie krijgen ze minder wealth en geeft deze wealth aan een willekeurige andere agent, waarbij het niet uitmaakt welke staat de andere agent is (wealth of niet). 
+
+4. Update Func: Deze acties en perceives wordt bij elke agent gedaan. De wealth wordt dan per agent geupdate en opnieuw gecheckt bij de perceive staat.
+                En kijkt het vervolgens of het blut is of niet. Deze update functie blijft runnen totdat het crashed(aan aantallen) of handmatig gestopt wordt
 
 Demo fire project:
-Bestaat uit greentrees(unburned) en burningtrees(burning) en burnedtrees. Elke tree kan dus verbrand of niet zijn. Elke tree kan alleen zijn buurman(nen) zien. Wanneer een tree burning is kijkt het naar zijn buren of ze groen zijn,
-wat betekent nog niet burned, dan zit de tree in de "burning" state en wordt het rood. Als de burning tree een buurman heeft die nog groen is, maakt het zijn buurman(nen) ook burning. Na deze burning state wordt de tree burned en 
-zit het dus in de "burned" state en wordt dus zwart. In deze state gaat het niet meer kijken naar de buren. De volgende run gaat het systeem kijken naar de burning (state) trees en laat het ook die zijn buurmannen aansteken, waarna deze
-bomen in de burned state komen en niet meer kunnen aansteken. Dit blijft doorgaan totdat elke boom unburned of burned is (niks burning).
+1. Initiele staat: Bestaat uit greentrees(unburned) en burningtrees(burning) en burnedtrees. Elke tree kan dus verbrand of niet zijn. Een tree dat groen is gaat niet de See functie gebruiken
+
+2. See Functie: Elke tree kan alleen zijn naasten buurman(nen) zien. Wanneer een tree burning is, kijkt het naar zijn buren of ze groen zijn,
+    	   	wat betekent nog niet burned. Als dat het geval is dan doet het de actie functie
+
+3. Act Functie: Als de burning tree een buurman heeft die nog groen is, maakt het zijn buurman(nen) ook burning. Na deze burning state wordt de tree burned en 
+		zit het dus in de "burned" state en wordt dus zwart. In deze state gaat het niet meer kijken naar de buren. 
+
+4. Update Func: De volgende run gaat het systeem kijken naar de burning (state) trees en laat het ook die zijn buurmannen aansteken, waarna deze
+		bomen in de burned state komen en niet meer kunnen aansteken. Dit blijft doorgaan totdat elke boom unburned(groen) of burned is (geen elke tree burning).
