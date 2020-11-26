@@ -1,0 +1,20 @@
+Model Simple Economy:
+Samenvatting:
+Er worden 500 verschillende kandidaten(turtles) gebruik die ieder 1 "geld" geeft aan een willekeurig persoon.
+Ieder heeft ook 100 "geld" en kan dus 100 "geld" geven. 
+Ieder verliest ook het gegeven geld, waardoor ze blut kunnen worden. Dan kunnen ze geen geld geven en moeten ze
+wachten totdat ze weer geld krijgen.
+
+Observatie:
+Je ziet uit dat de kandidaten toch meer dan 100 "geld" kunnen krijgen, omdat er kans is dat 1 persoon 2 geld krijgt
+en dus 1 geld winst heeft. Daardoor kunnen er ook kandidaten, blut worden.
+Als je uiteindelijk dit een tijdje laat werken zie je dat de hoeveelheid aan kandidaten geld erg gespreid ligt.
+De lijngrafiek laat zien hoe dat te werk gaat met de top 10% en de bottom 50%. Je zou verwachten dat de 50% veel meer heeft,
+maar toch zie je bij de lijngrafiek dat er toch steeds meer rijkere kandidaten komen en armere mensen. Uiteindelijk zelf dat de 
+top 10% meer geld heeft dan de bottom 50%
+
+Extra element:
+~Elk kandidaat begint met 1 "geld", de gift wordt verdeeld tussen 2 random personen (0.5 per persoon dus)
+Bij de (kleiner gemaakte) grafiek van bottom 50% en top 10% is de top 10% meteen al meer dan de bottom 50% mede, omdat bij het begin
+vele kandidaten blut zijn, wat dus overeenkomt met de grafiek van wealth distribution. De grafieken van alle kandidaten als cirkels, wordt minder
+duidelijk dan bij 100 "geld" omdat alle kandidaten tussen kleinere waardes gaat liggen (0 en 10) ipv (0 en 500) waardoor die grafiek niet handig meer is.

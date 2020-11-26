@@ -1,0 +1,22 @@
+Omgeving Simple Economy:
+Beschikbaar vs ontoegankelijk,
+De agenten in simple economy geven en nemen geld. Ze weten daarbij niet hoeveel geld de ander heeft, alleen wat hijzelf heeft. Hij weet niks van
+de omgeving dus zijn de agenten ontoegankelijk
+
+Deterministisch vs niet-deterministisch,
+De agenten geven willekeurige mensen geld, wat betekent dat elke agent elke keer een andere hoeveelheid aan geld/wealth heeft, waarbij de uitkomst nooit
+voorspelbaar is en is dus de simulatie niet-deterministisch
+
+Episodic vs non-episodic,
+De agenten geven geld aan willekeurige mensen. Dat betekent niet altijd dat ze ook iets terug krijgen, dus is namelijk compleet willekeurig. De
+willekeurigheid bepaald het systeem en niet de agents. Dus bepalen de agenten waar hun geld/wealth naar toe gaat? Nee, wat betekent dat het episodic is.
+
+Statisch vs dynamisch,
+De omgeving wordt bepaald door de agenten, maar deze agenten besturen zichzelf niet, maar worden bestuurd door de randomness. Dit zorgt ervoor welke
+agenten rijker worden dan anderen. Dus zijn er andere systemen die de agenten behelpen in het systeem? Ja, dus dynamisch
+
+Discreet vs continu,
+De omgeving laat door de randomness, het geld aan willekeurige mensen geven. De enige manier dat het systeem deze actie niet kan ondernemen is, wanneer
+iedereen blut is. Tijdens deze actie gaat er geen geld verloren en is er altijd wel een persoon met geld die het kan doorgeven.
+Dus is het systeem oneindig of zijn er zoveel regels dat het net zoals een schaakspel uiteindelijk stopt? Oneindig, Simple Economy project is continu
+
